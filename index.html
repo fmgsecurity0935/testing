@@ -6,7 +6,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript">
 	  alert("사용자의 정보를 조회하니, 원치않으면 사이트 끄세요..");
-		$.getJSON('https://ipai.co/json/', function(data)){
+		$.getJSON('https://ipai.co/json/', function(data){
 			var ressssult = JSON.stringify(data,null,2);
 			console.log(ressssult);
 			var userAgent = navigator.userAgent.toLowerCase();
